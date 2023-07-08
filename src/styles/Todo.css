@@ -1,0 +1,124 @@
+:root {  
+    --color-white: #FFFFFF;
+    --color-red: #FF0000;
+    --color-gray: #808080;
+    --color-redorange: #F5291D;
+    --color-purple: #6E2A8F;
+    --color-purplesemidark: #451762;
+    --color-purpledarker: #260B38;
+}
+
+.todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 1rem;
+    margin-left: 0rem;
+    padding: 1rem;
+    border-width: 0rem;
+    border-style: solid;
+    border-radius: 0.5rem;
+    border-color: transparent;
+    box-shadow: 0rem 0rem 0.2rem var(--color-gray);
+    background-color: var(--color-white);
+}
+
+.todo .content p {
+    margin: 1rem 0rem;
+    font-weight: bold;
+    color: var(--color-purplesemidark);
+}
+
+.todo .content p:hover {
+    color: var(--color-purple);
+}
+
+.todo button {
+    margin-top: 0rem;
+    margin-right: 1rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    border-width: 0rem;
+    border-style: solid;
+    border-radius: 0.5rem;
+    border-color: transparent;
+    cursor: pointer;
+    transition:  ease-in 0.1s;
+    font-weight: bold;
+    color: var(--color-white);
+    background-color: var(--color-purple);
+}
+  
+.todo button:hover {
+    background-color: var(--color-purplesemidark);
+}
+
+.todo .complete {
+    background-color: var(--color-purple);
+}
+  
+.todo .remove {
+    background-color: var(--color-red);
+}
+
+.todo .remove:hover {
+    background-color: var(--color-redorange);
+}
+
+@media only screen and (max-width: 767px) {
+
+.todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 1rem;
+    margin-left: 0rem;
+    padding: 1rem;
+    border-width: 0rem;
+    border-style: solid;
+    border-radius: 0.5rem;
+    border-color: transparent;
+    box-shadow: 0rem 0rem 0.2rem var(--color-gray);
+    background-color: var(--color-white);
+}
+
+.todo .content p {
+    margin: 1rem 0rem;
+    flex-wrap: wrap;
+    font-weight: bold;
+    color: var(--color-purplesemidark);
+}
+
+.todo .actions {
+    display: flex;
+}
+
+.todo button {
+    margin-top: 0rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    border-width: 0rem;
+    border-style: solid;
+    border-radius: 0.5rem;
+    border-color: transparent;
+    cursor: pointer;
+    transition:  ease-in 0.1s;
+    font-weight: bold;
+    color: var(--color-white);
+    background-color: var(--color-purple);
+}
+
+}

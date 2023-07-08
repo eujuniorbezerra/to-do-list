@@ -1,0 +1,117 @@
+:root {  
+    --color-white: #FFFFFF;
+    --color-red: #FF0000;
+    --color-gray: #808080;
+    --color-redorange: #F5291D;
+    --color-purple: #6E2A8F;
+    --color-purplesemidark: #451762;
+    --color-purpledarker: #260B38;
+}
+
+.filter {
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 1rem;
+    margin-left: 0rem;
+    padding-top: 0rem;
+    padding-right: 0rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0rem;
+    border-bottom-width: 0.063rem;
+    border-bottom-style: solid;
+    border-bottom-right-radius: 0rem;
+    border-bottom-left-radius: 0rem;
+    border-bottom-color: var(--color-white);
+}
+
+.filter-options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter h2 {
+    color: var(--color-white);
+}
+
+.filter .filter-options h2 {
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 1rem;
+    margin-left: 0rem;
+}
+
+.filter .filter-options p {
+    font-weight: bold;
+    color: var(--color-white);
+}
+
+.filter .filter-options input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 1rem;
+    margin-left: 0rem;
+    border-width: 0.063rem;
+    border-style: solid;
+    border-radius: 0.5rem;
+    border-color: transparent;
+    box-sizing: border-box;
+    background-color: var(--color-white);
+}
+
+.filter .filter-options select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 1rem;
+    margin-left: 0rem;
+    border-width: 0.063rem;
+    border-style: solid;
+    border-radius: 0.5rem;
+    border-color: transparent;
+    font-weight: bold;
+    cursor: pointer;
+    transition:  ease-in 0.1s;
+    color: var(--color-white);
+    background-color: var(--color-purple);
+}
+
+.filter .filter-options select:hover {
+    background-color: var(--color-purplesemidark);
+}
+
+.filter .filter-options select .option {
+    font-weight: bold;
+    color: var(--color-white);
+    background-color: var(--color-purple);
+}
+
+.filter .filter-options button {
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    border-width: 0rem;
+    border-style: solid;
+    border-radius: 0.5rem;
+    border-color: transparent;
+    cursor: pointer;
+    transition:  ease-in 0.1s;
+    font-weight: bold;
+    color: var(--color-white);
+    background-color: var(--color-purple);
+}
+  
+.filter .filter-options button:hover {
+    background-color: var(--color-purplesemidark);
+}
+
+.filter .filter-options .Asc {
+    margin-right: 1rem;
+}

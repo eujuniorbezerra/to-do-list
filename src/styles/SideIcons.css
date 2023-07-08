@@ -1,0 +1,43 @@
+.github {
+    width: 2.5rem;
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 0.2rem;
+    margin-left: 0rem;
+}
+
+.linkedin {
+    width: 2.5rem;
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 0.2rem;
+    margin-left: 0rem;
+}
+
+.whatsapp {
+    width: 2.5rem;
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 0.2rem;
+    margin-left: 0rem;
+}
+
+.email {
+    width: 2.5rem;
+}
+
+@media only screen and (max-width: 767px) {
+
+.d-flex.position-fixed.align-items-end.flex-sm-column.top-1.end-0.translate-middle-x {
+    display: flex !important;
+    position: static !important;
+    justify-content: center !important;
+    flex-direction: row !important;
+    transform: translateX(0) !important;
+}
+
+.github, .linkedin, .whatsapp, .email {
+    margin: 0.4rem;
+}
+
+} 
